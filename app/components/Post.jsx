@@ -1,6 +1,6 @@
 import { Link } from "@remix-run/react"
 
-export default function Post({post}){
+export default function Post({ post }) {
     return (
         <Link prefetch="render" to={`/posts/${post.slug}`}>
             <div className="flex 
@@ -17,10 +17,9 @@ export default function Post({post}){
             >
                 <div>
                     <h2 className="font-semibold text-2xl">{post.title}</h2>
-                    <p>{ new Date(post.date).toLocaleDateString() }</p>
+                    <p>{new Date(post.date).toLocaleDateString()}</p>
                 </div>
             </div>
         </Link>
-
     )
 }
