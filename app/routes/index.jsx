@@ -22,14 +22,14 @@ export async function loader() {
   })
 
   const posts = response?.data?.posts?.nodes
+
   return posts
 }
 
 
 export default function Index() {
-  // const posts = loader();
   const posts = useLoaderData();
-  console.log(posts);
+
   return (
     <div>
       <Header title="Home Page" ></Header>
