@@ -27,8 +27,9 @@ export async function loader() {
 
 
 export default function Index() {
-  const posts = loader();
-  // const posts = useLoaderData();
+  // const posts = loader();
+  const posts = useLoaderData();
+  console.log(posts);
   return (
     <div>
       <Header title="Home Page" ></Header>
