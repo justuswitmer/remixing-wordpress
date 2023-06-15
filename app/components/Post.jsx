@@ -16,9 +16,8 @@ export default function Post({ post }) {
             hover:scale-105"
             >
                 <div>
-                    <h2 className="font-semibold text-2xl">{post.title}</h2>
+                    <h2 className="font-semibold text-2xl"><span style={{ marginRight: "5px" }}>{post.index}</span>{post.title}</h2>
                     <p>{new Date(post.date).toLocaleDateString()}</p>
-                    <p>{post.content.substring(0, 40)}</p>
                 </div>
             </div>
         </Link>
