@@ -7,9 +7,9 @@ This resource demonstrates how to implement headless WordPress with the Remix fr
 [📹 Watch the video](https://www.youtube.com/watch?v=4jT7iKdqoW4)
 
 ## Getting Started
-Follow along with the blog post, and run the following commands to clone this repo:
+Run the following commands to clone this repo:
 
-    git clone https://github.com/JEverhart383/remixing-wordpress.git
+    git clone https://github.com/justuswitmer/remixing-wordpress.git
     cd remixing-wordpress
     npm install
     npm run dev
